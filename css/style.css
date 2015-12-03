@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'font91ed9a01fbe8936ffd81d0b62400c999';
+    src:    url('http://nomail.com.ua/files/eot/91ed9a01fbe8936ffd81d0b62400c999.eot?#iefix') format('embedded-opentype'),
+    url('http://nomail.com.ua/files/woff/91ed9a01fbe8936ffd81d0b62400c999.woff') format('woff'),
+    url('http://nomail.com.ua/files/woff2/91ed9a01fbe8936ffd81d0b62400c999.woff2') format('woff2');
+}
+
+@font-face { font-family: 'PFDinTextPro-Medium';  src: local('PFDinTextPro-Medium'),
+url('http://nomail.com.ua/files/woff/91ed9a01fbe8936ffd81d0b62400c999.woff') format('woff'); }
+
 * {
     box-sizing: border-box;
 }
@@ -40,12 +50,15 @@ header {
 }
 
 .header-contacts li a {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
     text-decoration: none;
     margin-left: 45px;
 }
 
 .contact-phone {
     color: #343434;
+    font-size: 16px;
 }
 
 .chat {
@@ -82,6 +95,7 @@ header {
 .link {
     text-decoration: none;
     color: #ff8416;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 36px;
@@ -96,7 +110,7 @@ header {
     border-bottom: 2px solid #ff8416;
 }
 
-a.favorite {
+.favorite {
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -114,7 +128,6 @@ a.favorite {
 }
 
 .container {
-    position: relative;
     padding-right: calc((100% - 1180px) / 2);
     padding-left: calc((100% - 1180px) / 2);
     height: 560px;
@@ -162,7 +175,7 @@ a.favorite {
 
 .tagline p {
     color: #373737;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 500;
     white-space: nowrap;
@@ -176,7 +189,7 @@ a.favorite {
     display: block;
     text-decoration: none;
     color: white;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 40px;
@@ -204,7 +217,7 @@ a.favorite {
 }
 
 .service h2 {
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 20px;
@@ -215,7 +228,7 @@ a.favorite {
 }
 
 .service p {
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -234,9 +247,9 @@ a.favorite {
     text-align: center;
     flex-basis: 100%;
     color: #373737;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 28px;
-    line-height: 20px;
+    line-height: 21px;
     text-transform: uppercase;
     margin-bottom: 34px;
     position: relative;
@@ -275,7 +288,7 @@ a.favorite {
 
 .feature-title {
     color: #ff7800;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -313,7 +326,7 @@ a.favorite {
 
 .feature-item p {
     color: #373737;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -335,7 +348,7 @@ a.favorite {
 
 .statistics-title {
     color: #3c3c3c;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     line-height: 30px;
     text-transform: uppercase;
     font-size: 24px;
@@ -367,7 +380,7 @@ a.favorite {
 
 .statics-number {
     color: #ff0072;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 60px;
     font-weight: 300;
     line-height: 20px;
@@ -398,7 +411,7 @@ a.favorite {
 
 .statics-text {
     color: #373737;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
@@ -418,7 +431,7 @@ a.favorite {
 
 .feedback-title {
     color: #373737;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 28px;
     text-transform: uppercase;
     font-weight: 300;
@@ -494,7 +507,7 @@ a.favorite {
 
 .response-text {
     color: #373737;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     font-style: italic;
     line-height: 20px;
@@ -505,7 +518,7 @@ a.favorite {
 .author {
     text-align: end;
     color: #373737;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
@@ -525,7 +538,7 @@ a.favorite {
 
 .hiw h2 {
     color: #373737;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 28px;
     line-height: 20px;
     text-transform: uppercase;
@@ -540,7 +553,6 @@ a.favorite {
     background: #ffffff;
     position: relative;
     margin-right: 20px;
-    position: relative;
 }
 
 .principle-item:after {
@@ -573,7 +585,7 @@ a.favorite {
 
 .numbering p {
     color: #ff9400;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
@@ -591,7 +603,7 @@ a.favorite {
 
 .principle-item h3 {
     color: #373737;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
@@ -601,7 +613,7 @@ a.favorite {
 
 .principle-text {
     color: #252525;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -632,7 +644,7 @@ a.favorite {
 }
 
 .preference-title {
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 18px;
     line-height: 33px;
     text-transform: uppercase;
@@ -643,7 +655,7 @@ a.favorite {
 }
 
 .preference p {
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -681,7 +693,7 @@ footer {
 }
 .footer-menu a{
     color: #ff8416;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 30px;
@@ -693,7 +705,7 @@ footer {
 }
 .payment-title{
     color: #373737;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 18px;
     line-height: 33px;
     text-transform: uppercase;
@@ -709,7 +721,7 @@ footer {
 
 .payment p{
     color: #aa9a64;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 11px;
     font-weight: 400;
     line-height: 14px;
@@ -722,7 +734,7 @@ footer {
 }
 .footer-contacts h3{
     color: #373737;
-    font-family: PFDinTextPro;
+    font-family: "PFDinTextPro", "Arial", sans-serif;
     font-size: 18px;
     line-height: 33px;
     text-transform: uppercase;
@@ -730,7 +742,7 @@ footer {
 }
 
 .phone-number{
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 30px;
     font-weight: bold;
@@ -739,7 +751,7 @@ footer {
 }
 
 .email{
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 30px;
     font-weight: bold;
@@ -748,7 +760,7 @@ footer {
 }
 
 .live-chat{
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 30px;
     font-weight: bold;
@@ -757,7 +769,7 @@ footer {
 
 .copyright{
     color: #c7c7c7;
-    font-family: Roboto;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
