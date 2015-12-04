@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<h1><span>Register in</span></h1>
+
+<form class="register-form" autocomplete="on" method="get">
+    <div class="form-item">
+        <div class="item-title">
+            <p>Name:</p>
+        </div>
+        <input class="name" type="text" name="name" placeholder="Arnold" autofocus required size="30">
+
+    </div>
+
+    <div class="form-item">
+        <div class="item-title">
+            <p>Surname:<p>
+        </div>
+        <input class="surname" type="text" name="surname" placeholder="Tempees" autofocus required size="30">
+
+    </div>
+
+    <div class="form-item">
+        <div class="item-title">
+            <p>Phone number:</p>
+        </div>
+        <input class="phone" type="tel" name="phone" placeholder="+123 315 4578 965" required size="17"
+               pattern="(+[0-9]{3}( [0-9]{3})( [0-9]{4})( [0-9]{3})">
+
+    </div>
+
+    <div class="form-item">
+        <div class="item-title">
+            <p>Email:</p>
+        </div>
+        <input class="email" type="email" name="email" placeholder="tempees@tempees.com" autocomplete="on"
+               required size="30">
+    </div>
+
+    <div class="zip-state-container">
+    <div class="form-item">
+        <div class="item-title">
+            <p>Zip:</p>
+        </div>
+        <div class="zip-box">
+            <p class="zip-placeholder">Choose file</p>
+        <input class="zip" type="file" name="file" multiple>
+        </div>
+
+    </div>
+
+    <div class="form-item">
+        <div class="item-title state-name">
+            <p>State:</p>
+        </div>
+        <input class="state" type="text" name="state" list="state">
+        <datalist id="state">
+            <option value="Idaho"></option>
+            <option value="Arizona"></option>
+            <option value="Washington"></option>
+            <option value="Georgia"></option>
+            <option value="California"></option>
+            <option value="Colorado"></option>
+            <option value="New York"></option>
+        </datalist>
+    </div>
+    </div>
+
+    <div class="form-item">
+        <div class="item-title">
+            <p>Address:</p>
+        </div>
+        <textarea name="address" placeholder="Fifth avenue" required></textarea>
+    </div>
+
+    <input class="btn" type="submit" value="Send me">
+
+</form>
+</body>
+</html>
